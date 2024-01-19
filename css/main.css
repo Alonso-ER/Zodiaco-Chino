@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+header{
+    background: #c70039;
+    height: 70px;
+}
+header a{
+    text-decoration: none;
+    color: #ffc3df;
+}
+header img{
+    width: 50px;
+    margin: 10px;
+    float: left;
+}
+header h1{
+    padding-top: 10px;
+}
+nav{
+    height: 40px;
+    background-color: #900c3f;
+}
+.nav-bar{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 10px 0 10px;
+}
+.container{
+    width: 400px;
+    margin: 50px 150px 50px 70px;
+    color: #581845;
+}
+#formulario{
+    width: 90%;
+    background: #ffc30f;
+    margin: 0;
+    padding: 40px 44px 50px 100px;
+}
+.container h2{
+    font-size: 30px;
+}
+.container input{
+    float: left;
+    padding: 5px 10px;
+    margin-right: 50px;
+}
+.container button{
+    padding: 5px 20px;
+}
+.start-end{
+    font-size: 23px;
+    margin: 0 0 15px 400px;
+    width: 400px;
+    color: #581845;
+}
+.signos .container{
+    height: 50px;
+}
+.fondo-animal{
+    width: 60%;
+    float: left;
+}
+.fondo-animal .container{
+    background: url(/img/animales\ chidos.webp) no-repeat;
+    height: 435px;
+}
+.text p{
+    font-size: 25px;
+    width: 400px;
+    text-align: justify;
+    margin: 0 0 0 450px;
+}
+.container.rata{
+    background-position: -1310px -850px;
+    display: none;
+}
+.container.buey{
+    display: none;
+}
+.container.tigre{
+    background-position: -435px 0;
+    display: none;
+}
+.container.conejo{
+    background-position: -870px 0;
+    display: none;
+}
+.container.dragon{
+    background-position: -1310px 0px;
+    display: none;
+}
+.container.serpiente{
+    background-position: 0px -425px;
+    display: none;
+}
+.container.caballo{
+    background-position: -435px -425px;
+    display: none;
+}
+.container.cabra{
+    background-position: -870px -425px;
+    display: none;
+}
+.container.mono{
+    background-position: -1310px -425px;
+    display: none;
+}
+.container.gallo{
+    background-position: -0 -850px;
+    display: none;
+}
+.container.perro{
+    background-position: -435px -850px;
+    display: none;
+}
+.container.cerdo{
+    background-position: -870px -850px;
+    display: none;
+}
+
+div aside{
+    width: 25%;
+    float: right;
+    margin: 40px 40px 0 0;
+    font-size: 20px;
+    background-color: #ffc3df;
+    padding: 20px;
+}
+#metal{
+    display: none;
+}
+#agua{
+    display: none;
+}
+#madera{
+    display: none;
+}
+#fuego{
+    display: none;
+}
+#tierra{
+    display: none;
+}

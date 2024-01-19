@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoscopo Chino</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="shortcut icon" href="/img/lotus-flower-transparent-free-png.webp">
+</head>
+<body>
+    <header>
+        <a href="">
+            <img src="/img/doce-animales-horoscopo-chino.jpg" alt="Logo Zodiaco">
+            <h1>Mi Horóscopo</h1>
+        </a>
+        
+    </header>
+    <nav>
+        <div class="nav-bar">
+            <a href="">
+                Inicio
+            </a>
+            <a href="">Contactanos</a>
+        </div>
+    </nav>
+    <section class="main-content">
+        <div class="container form" id="formulario">
+            </form>
+            <h2>Busca tu Horóscopo Chino!</h2><br>
+            <form class="date">
+                <input type="date" name="Fecha" id="fecha" required pattern="\d{4}-\d{2}-\d{2}">
+                <button onclick="zodiaco(), elemento()">Buscar</button>
+                
+        </div>
+        <br>
+        <div class="start-end">
+            <div id="start"></div>
+            <div id="end"></div>
+        </div>
+        <div class="fondo-animal">
+            <div class="rat">
+                <div id="rata" class="container rata">
+                    <div class="text rata">
+                        <p>Rata: Los nacidos bajo el signo de la Rata son 
+                            personas sabias a las que les gusta rodearse de 
+                            familiares y amigos, a quienes ayudan en sus 
+                            quehaceres y problemas diarios. Buenas trabajadoras, 
+                            ahorradores y buenos administradores de su economía.</p>
+                    </div>
+                </div>
+            </div>
+            <div  class="wey">
+                <div id="buey" class="container buey">
+                    <div class="text rata">
+                        <p>Buey: Los búfalos o bueyes son animales pacientes 
+                            y tranquilos, que irradian mucho cariño y amor e 
+                            infunden respeto. Grandes trabajadores, se sienten 
+                            a gusto rodeados del orden y la limpieza y logran 
+                            el éxito gracias a su esfuerzo. Para ellos lo más 
+                            importante es la familia, aunque son celosos con 
+                            su pareja. Aman el arte y la música. No les gusta 
+                            discutir, aunque sí que le obedezcan.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tiger">
+                <div id="tigre" class="container tigre">
+                    <div class="text rata">
+                        <p>Tigre: Las personas de este signo son muy 
+                            pasionales y llenas de energía. No pasan 
+                            desapercibidas, son aventureros, independientes, 
+                            ingeniosos, impulsivos y les gusta la diversión. Son 
+                            amigos para toda la vida, aunque les gusta ser el 
+                            líder del grupo. En el mundo de las relaciones de 
+                            pareja se muestran el más fuerte, sexy y seductor, 
+                            aunque de comportamiento excesivo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="rabbit">
+                <div id="conejo" class="container conejo">
+                    <div class="text rata">
+                        <p>Conejo: Los que nacen en el Año del Conejo 
+                        reúnen extraordinarias cualidades humanas: son prudentes,
+                        inteligentes, afables, discretos, previsores, atentos y
+                        benevolentes. Por eso, el signo del conejo es 
+                        ampliamente aceptado por la gente.
+    
+                        De carácter moderado e indulgente, amante de la paz y 
+                        la concordia, el conejo odia la guerra y la violencia. 
+                        Le gusta la vida tranquila, la ternura y la armonía.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="drake">
+                <div id="dragon"  class="container dragon">
+                    <div class="text rata">
+                        <p>Dragón: Símbolo del Emperador en China, el dragón es 
+                        imaginativo, magnánimo, emprendedor, afortunado y 
+                        poderoso. Está lleno de fuerza y vitalidad. Es un
+                        verdadero acumulador de energía y si le enojas, se 
+                        enfurecerá de tal manera que perderá los estribos. 
+                        Será difícil calmarle, pues no cree ni a nadie ni en nadie.
+                        Suelen dar buenos consejos y son afortunados tanto en el 
+                        dinero como en el amor. Son muy sentimentales y se enamoran locamente.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="snake">
+                <div id="serpiente" class="container serpiente">
+                    <div class="text rata">
+                        <p>Serpiente: Las personas Serpientes son astutas, 
+                        saben lo que quieren y cómo conseguirlo. Su conversación
+                        es elegante y fluida. Son intensos y prudentes a la vez. 
+                        Son celosas y posesivas con su familia pero leales. 
+                        Les gusta mimar a sus amigos y esperan de ellos una 
+                        actitud recíproca. Si se sienten desdeñados o fracasan 
+                        en sus tentativas, pueden estar enfadados durante horas, 
+                        aunque son buenas para mantener la calma y parecer 
+                        tranquilas en situaciones difíciles.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="horse">
+                <div id="caballo"  class="container caballo">
+                    <div class="text rata">
+                        <p>Caballo: Populares, optimistas, llenos de alegría, 
+                        aventureros, elocuentes, impacientes, emprendedores, 
+                        entusiastas con la vida, grandes amantes y amigos. 
+                        Su gran pasión es el dinero y los viajes. Les gusta 
+                        conocer gente nueva, distintas culturas, hablar idiomas
+                        y son el alma de las fiestas. Su atractivo físico y 
+                        su belleza hace que les sea fácil encontrar el amor: 
+                        trampa en la que caen sin remedio.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="goat">
+                <div id="cabra" class="container cabra">
+                    <div class="text rata">
+                        <p>Cabra: La cabra es creativa, artística, positiva, 
+                        elegante, femenina, afable, compasiva, llorona, 
+                        sensible, soñadora, orgullosa y triste. No persiguen 
+                        la riqueza material y prefieren vivir de sus ensoñaciones.
+                        Aman la familia, los niños, el hogar y estar en contacto 
+                        con la naturaleza. Son muy trabajadoras, aunque no 
+                        les gusta la presión ni de una fecha límite, ni de un jefe.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="monkey">
+                <div id="mono" class="container mono">
+                    <div class="text rata">
+                        <p>Mono: Animal más parecido al ser humano, es ingenioso, 
+                        divertido, simpático, de mente rápida y despierta, 
+                        comprador, persuasivo, sociable, capaces de resolver 
+                        cualquier problema por difícil que sea con soltura. Sus 
+                        relaciones amorosas y con los amigos suelen ser conflictivas,
+                        pues no soporta que no lo valoren. Gozan de buena salud, 
+                        aunque sus excesos en las fiestas, alcohol y drogas 
+                        podrían pasarle factura.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="rooster">
+                <div id="gallo" class="container gallo">
+                    <div class="text rata">
+                        <p>Gallo: Atractivo y seductor, con talento y apreciado. 
+                        Son meticulosos, eficientes, ordenados, buenos conversadores, 
+                        observadores, egoístas, usureros, pragmáticos y muy familiares. 
+                        En el amor son románticos, obstinados y luchan por el 
+                        control de su pareja. Suelen destacar como relaciones públicas 
+                        o como artistas. No prestan demasiada atención a su salud.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="dog">
+                <div id="perro" class="container perro">
+                    <div class="text rata">
+                        <p>Perro: El perro es un ser dedicado al trabajo, honesto, 
+                        confiable, diligente, con un gran sentido de la justicia 
+                        y la lealtad. Cautiva a todos con su personalidad excitante, 
+                        su buen humor y su gran capacidad para escuchar los problemas 
+                        de los demás y dar buenos consejos. En el amor son fieles y 
+                        leales, aunque muy celoso cuando su pareja no está en casa. 
+                        Los nervios son su mayor problema de salud.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pig">
+                <div id="cerdo" class="container cerdo">
+                    <div class="text rata">
+                        <p>Cerdo: Es un animal sincero, honesto, confiado, educado, 
+                        cariñoso, servicial, valiente, decidido, con gran fuerza de 
+                        voluntad, sin grandes pretensiones ni vanidad, con los pies 
+                        en la tierra. Son muy agradables y tienen gusto y modales 
+                        impecables. En el amor son sensuales, apasionado y pacientes, 
+                        pero hasta un punto. Son muy trabajadores, aunque la falta 
+                        de atracción por el deporte y la apatía harán que su físico 
+                        se resienta y engorde en exceso.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="metal">
+            <aside>
+                <h1>Elemento: Metal</h1>
+                Alegres, independientes y amantes del poder, así son las personas 
+                que nacen con esta influencia. Saben cuando van por buen camino 
+                y en qué momento no deben arriesgarse. Son poseedores de una mente 
+                brillante, tienen claridad, disciplina y son muy competitivos. 
+                Las finanzas son lo suyo, pues saben administrar su dinero y así 
+                darse lujos. El metal viene de la tierra, es controlado por el 
+                fuego y transforma la madera.
+            </aside>
+        </div>
+        <div id="agua">
+            <aside>
+                <h1>Elemento: Agua</h1>
+                Creativos, transparentes y amantes de la verdad. Los que tienen 
+                el agua como elemento necesitan mejorar la confianza en sí mismos. 
+                Son capaces de adquirir grandes responsabilidades y triunfar en 
+                lo que se propongan. No les es difícil salir victoriosos ni 
+                acoplarse a nuevas circunstancias. El metal se obtiene del agua 
+                y el agua alimenta la madera, apaga el fuego y es absorbida por 
+                la tierra.
+            </aside>
+        </div>
+        <div id="madera">
+            <aside>
+                <h1>Elemento: Madera</h1>
+                Fuertes, emprendedores, atrevidos y audaces. Los nativos de 
+                madera poseen mucha voluntad y confianza en sí mismos, por esta 
+                razón, son tenaces al trabajar y no temen luchar por una causa 
+                justa. Tienen mucha fe en sus sueños y metas, luchan por sus 
+                intereses. Su fuerza los hace alcanzar diversos reconocimientos 
+                y pueden llegar a encontrar elementos valiosos que los apoyen 
+                en cada gran paso. La madera es alimentada por el agua y es 
+                materia prima del fuego, así mismo, es absorbida por la tierra 
+                y dominada por el metal.
+            </aside>
+        </div>
+        <div id="fuego">
+            <aside>
+                <h1>Elemento: Fuego</h1>
+                Originales, poderosos e impulsivos, estas personas aportan 
+                pasión a cada aspecto de su vida. Son positivos y dan lo mejor 
+                de sí en cada proyecto. Su temperamento se relaciona con el 
+                corazón y la pasión, involucran sus emociones y sentimientos, 
+                y todo lo hacen con amor. Son decisivos y tienen seguridad en 
+                lo que hacen. El fuego alimenta la tierra, es alimentado por la 
+                madera, su calor controla el metal y es controlado por el agua.
+            </aside>
+        </div>
+        <div id="tierra">
+            <aside>
+                <h1>Elemento: Tierra</h1>
+                Prácticos, precavidos, apasionados y seductores. Los nacidos 
+                con este elemento se esmeran pensando en el futuro y planificándolo, 
+                por lo que pueden olvidarse del presente. Son muy trabajadores y 
+                confiables, con los pies bien puestos en la tierra. Manejan bien 
+                las finanzas gracias a su orden y son muy comprensivos, dando espacio 
+                a quienes lo necesitan; así mismo, ayudan a solucionar problemas. 
+                La tierra alimenta al metal, sirve de alimento al fuego, domina el 
+                agua y es absorbida por la madera.
+            </aside>
+        </div>
+        <br>
+        <br>
+        <!-- Los elementos se calculan en un ciclo de 10 años, cada elemento tomando 2 años consecutivos:
+        0 Y 1 para Metal, 2 y 3 para Agua, 4 y 5 para Madera, 6 y 7 para Fuego y 8 y 9 para Tierra. -->
+    </section>
+
+    <script src="/js/app.js"></script>
+</body>
+</html>

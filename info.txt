@@ -1,0 +1,20 @@
+Horóscopo
+
+Se desarrollará una página web que mediante la fecha de nacimiento ingresada, 
+deberá traer 	como resultado el horóscopo chino correspondiente a tal fecha, 
+incluyendo el rango de fechas que este cubre.
+
+Puntos a considerar:
+•	La ficha deberá contener la imagen correspondiente al signo del horóscopo
+•	Texto/información sobre el horóscopo
+•	Modelo de matriz
+
+Tecnologías:
+•	HTML
+•	CSS
+•	BOOTSTRAP
+•	JAVASCRIPT
+
+Controles:
+•	Main page content
+•	Container (wrapper)
